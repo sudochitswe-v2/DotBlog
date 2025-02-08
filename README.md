@@ -13,7 +13,13 @@
 ```json
 {
   "ConnectionStrings": {
-    "SqlConnection": "<connection string>"
+    "DefaultConnection": "<connection_string>"
+  },
+  "JwtSettings": {
+    "SecretKey": "<key>",
+    "Issuer": "<issuer>",
+    "Audience": "<audience>",
+    "RefreshTokenExpirationDays": <no of days>
   }
 }
 ```
